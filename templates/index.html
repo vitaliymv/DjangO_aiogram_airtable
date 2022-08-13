@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}
+    <title>Main</title>
+{% endblock %}
+
+{% block content %}
+    <section class="vh-100" style="background-color: #9de2ff;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-10 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                        <div class="p-4 text-center">
+                            <h4>Join from the telegram</h4>
+                            <h5>Title telegram bot</h5>
+                            <p>Some description about telegram bot</p>
+                            <div class="d-flex justify-content-between rounded-3 p-2 mb-2"
+                                 style="background-color: #efefef;">
+                                <a href="https://t.me/django_aiogram_bot" class="btn btn-primary">Join</a>
+                                <a href="/login" class="btn btn-success">Login</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+{% endblock %}
